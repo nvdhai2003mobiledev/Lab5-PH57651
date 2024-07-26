@@ -53,10 +53,7 @@ public class MainActivity extends AppCompatActivity {
         btnUpdate = findViewById(R.id.btn_update);
         btnDelete = findViewById(R.id.btn_delete);
         btn.setOnClickListener(v -> {
-//            insetData(txt1, txt2, txt3, tvKq);
             selectData(tvKq);
-//            deleteData(txt1, tvKq);
-//            updateData(txt1, txt2, txt3, tvKq);
         });
         btnUpdate.setOnClickListener(view -> {
             updateData(txt1, txt2, txt3, tvKq);
